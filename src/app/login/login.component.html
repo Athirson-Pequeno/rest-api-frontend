@@ -1,0 +1,35 @@
+<mat-card appearance="outlined" class="custom-card">
+  <mat-card appearance="outlined" class="nested-card">
+    <form [formGroup]="form">
+      <div class="example-container">
+        <mat-form-field class="input">
+          <mat-label>Digite seu email</mat-label>
+          <input
+          class="input"
+            matInput
+            placeholder="pat@example.com"
+            formControlName="email"
+            required
+          />
+        </mat-form-field>
+      </div>
+
+      <mat-form-field class="input">
+        <mat-label >Digite sua senha</mat-label>
+        <input
+        class="input"
+          formControlName="password"
+          matInput
+          [type]="true ? 'password' : 'text'"
+        />
+        <button
+          mat-icon-button
+          matSuffix
+          [attr.aria-label]="'Hide password'"
+        ></button>
+      </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="onLogin()">Entrar</button>
+    <button mat-raised-button (click)="onLogin()" class="new-account">Criar conta</button>
+  </mat-card>
+</mat-card>

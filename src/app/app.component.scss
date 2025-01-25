@@ -1,0 +1,52 @@
+
+
+.list {
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  width: 100%;
+}
+
+.button-list{
+  margin: 2px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%; /* Toda a largura disponível */
+  
+}
+
+
+.left {
+  width: 18%; /* Ocupa 18% da largura */
+  max-width: 200px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+
+}
+
+.right {
+  flex: 1; /* Ocupa todo o espaço restante */
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #b1c8db;
+  justify-content: center;
+  align-items: stretch;
+  color: black;
+}
+
+
+.hidden {
+  width: 0; /* Reduz para 0 */
+  overflow: hidden; /* Esconde o conteúdo */
+}

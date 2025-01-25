@@ -1,0 +1,34 @@
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;          /* Define o padding ao redor dos itens */
+    height: 100%;
+    width: 100%;          /* Ocupa toda a altura do container pai */
+  }
+  
+  .nested-card {
+    width: 100%;            /* Faz o cartão interno ocupar toda a largura */
+    margin-bottom: 16px;    /* Espaçamento abaixo do cartão interno */
+    padding: 20px;
+  }
+  
+.cancel-button{
+    margin-left: 8px;
+    background-color: white;
+    color: black;
+}
+
+.min-width{
+    width: 100%;
+    min-width: 200px;
+}
+
+  mat-form-field {
+    width: 100%;            /* Faz o campo de formulário ocupar toda a largura */
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: center; /* Centraliza os botões no eixo horizontal */
+  }
+  

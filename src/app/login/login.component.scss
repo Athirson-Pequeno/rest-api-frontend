@@ -1,0 +1,25 @@
+.custom-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 16px;          /* Define o padding ao redor dos itens */
+    box-sizing: border-box; /* Inclui o padding no cálculo da altura */
+  }
+   
+  .nested-card {
+    width: 100%;            /* Faz o cartão interno ocupar toda a largura */
+    margin-bottom: 16px;    /* Espaçamento abaixo do cartão interno */
+    padding: 20px;
+    max-width: 350px;
+  }
+  
+  .input{
+    width: 100%;
+  }
+
+  .new-account{
+    margin-top: 10px;
+   
+  }
+

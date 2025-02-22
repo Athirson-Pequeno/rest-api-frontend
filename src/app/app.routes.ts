@@ -12,6 +12,10 @@ export const routes: Routes = [
     component: LoginComponent
   },
   {
+    path: '',
+    component: LoginComponent
+  },
+  {
     path: 'sectors',
     loadComponent: () =>
       import('./sectors/sectors.component').then((m) => m.SectorsComponent),

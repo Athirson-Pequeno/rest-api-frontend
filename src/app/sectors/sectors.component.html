@@ -38,11 +38,11 @@
               <div class="example-button-row">
                 <div class="example-flex-container">
                   
-                    <button mat-mini-fab aria-label="Example icon button with a menu icon">
+                    <button mat-mini-fab (click)="deleteSector(element.id)">
                       <mat-icon>delete</mat-icon>
                     </button>
                   
-                    <button mat-mini-fab aria-label="Example icon button with a menu icon">
+                    <button mat-mini-fab (click)="updateSector(element)">
                       <mat-icon>edit</mat-icon>
                     </button>
                  

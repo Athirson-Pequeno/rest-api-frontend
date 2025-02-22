@@ -37,7 +37,7 @@ export class LoginComponent {
     this.loginService.login(this.credential).subscribe({
       next: (response) => {
         console.log('Login realizado com sucesso:', response);
-        this.router.navigate(['/home']); // Redireciona após o login
+        this.router.navigate(['/home']); 
       },
       error: (err) => {
         console.error('Erro ao realizar login:', err);
